@@ -1,0 +1,93 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+
+}
+
+body {
+    background: linear-gradient(270deg, #87EFF6 0%, #FFFFFF 100%);
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+
+    & .Navbar {
+        display: flex;
+        gap: 50px;
+
+        & li a {
+            color: #000;
+        }
+    }
+}
+
+main {
+    padding: 40px 80px;
+
+    & .Home {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: calc(100hv - 185px);
+
+        & .lado-esquerdo {
+            width: 604px;
+            display: flex;
+            flex-direction: column;
+            gap: 58px;
+
+            & .content {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+
+                & p:first-child {
+                    color: #ff2323;
+                    font-size: 24px;
+                    font-weight: 600;
+
+                }
+
+                & p:last-child {
+                    font-size: 18;
+                }
+
+                & h1 {
+                    font-size: 40;
+
+                }
+            }
+
+            & .btns {
+                display: flex;
+                gap: 16px;
+
+                & button{
+                    padding: 14px 20px;
+                    border-radius: 16px;
+                    border: none;
+                    background: #4abbca;
+                    font-size: 18;
+                    font-weight: 700;
+
+                }
+
+                & button:last-child{
+                    background: transparent;
+                    border: 2px solid #4abbc2;
+                    color: #4abbc2;
+
+                }
+
+            }
+        }
+    }
+
+}
